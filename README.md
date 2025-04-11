@@ -41,6 +41,7 @@ Use cv2.imshow to show the image
 End the program
 
 ## Program:
+
 Developed By: SHASHANK R
 Register Number: 212223230205
 
@@ -59,6 +60,7 @@ plt.show()
 
 rows, cols, dim = input_img.shape
 M = np.float32([[1, 0, 2000], [0, 1, 50], [0, 0, 1]])
+```
 
 # Note that we only need the first two rows of the matrix for warpAffine
 M_affine = M[:2, :]
@@ -143,6 +145,7 @@ ax[1].set_title("Cropped Image")
 plt.show()
 ```
 
+
 ## Output:
 ### i)Image Translation
 ![image](https://github.com/user-attachments/assets/f8fab2e9-42e3-4be4-bb77-9059067657a6)
@@ -151,16 +154,16 @@ plt.show()
 ![image](https://github.com/user-attachments/assets/50530052-1a8d-4e0e-8ec1-5ff5fc33c230)
 
 ### iii)Image shearing
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/51b1515c-85aa-4a0b-965d-63cd8d06b739)
 
 ### iv)Image Reflection
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/726d9411-dbe7-4626-8e33-aaec83f1cb6a)
 
 ### v)Image Rotation
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/24941095-428d-496b-a265-bd866bca4f7b)
 
 ### vi)Image Cropping
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/d6b44f78-a7ea-4de9-a462-020e2d1b7120)
 
 ## Result: 
 
